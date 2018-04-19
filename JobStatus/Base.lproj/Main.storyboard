@@ -34,7 +34,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Applications" id="DWW-tp-mmr">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="icon settings" id="WaK-GE-A9E">
+                        <barButtonItem key="leftBarButtonItem" image="icon settings" id="WaK-GE-A9E">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="KNg-gw-7Kb" kind="show" id="RsU-WY-H4C"/>
