@@ -14,8 +14,9 @@
 		5CC57225208850E800EDF7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC57223208850E800EDF7AB /* LaunchScreen.storyboard */; };
 		5CC5722D208852A800EDF7AB /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC5722C208852A800EDF7AB /* MainTableViewController.swift */; };
 		5CC5722F208852CC00EDF7AB /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC5722E208852CC00EDF7AB /* MainTableViewCell.swift */; };
-		5CC572312088563900EDF7AB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC572302088563900EDF7AB /* SettingsViewController.swift */; };
 		5CC572332088564F00EDF7AB /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC572322088564F00EDF7AB /* NewEntryViewController.swift */; };
+		5CC57235208887E900EDF7AB /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC57234208887E900EDF7AB /* SettingsTableViewController.swift */; };
+		5CC572372088886B00EDF7AB /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC572362088886B00EDF7AB /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		5CC57226208850E800EDF7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC5722C208852A800EDF7AB /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		5CC5722E208852CC00EDF7AB /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
-		5CC572302088563900EDF7AB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		5CC572322088564F00EDF7AB /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		5CC57234208887E900EDF7AB /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		5CC572362088886B00EDF7AB /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,9 @@
 				5CC57217208850E700EDF7AB /* AppDelegate.swift */,
 				5CC5722C208852A800EDF7AB /* MainTableViewController.swift */,
 				5CC5722E208852CC00EDF7AB /* MainTableViewCell.swift */,
-				5CC572302088563900EDF7AB /* SettingsViewController.swift */,
 				5CC572322088564F00EDF7AB /* NewEntryViewController.swift */,
+				5CC57234208887E900EDF7AB /* SettingsTableViewController.swift */,
+				5CC572362088886B00EDF7AB /* SettingTableViewCell.swift */,
 				5CC5721B208850E800EDF7AB /* Main.storyboard */,
 				5CC57221208850E800EDF7AB /* Assets.xcassets */,
 				5CC57223208850E800EDF7AB /* LaunchScreen.storyboard */,
@@ -150,8 +153,9 @@
 			files = (
 				5CC57220208850E800EDF7AB /* JobStatus.xcdatamodeld in Sources */,
 				5CC5722D208852A800EDF7AB /* MainTableViewController.swift in Sources */,
+				5CC572372088886B00EDF7AB /* SettingTableViewCell.swift in Sources */,
+				5CC57235208887E900EDF7AB /* SettingsTableViewController.swift in Sources */,
 				5CC5722F208852CC00EDF7AB /* MainTableViewCell.swift in Sources */,
-				5CC572312088563900EDF7AB /* SettingsViewController.swift in Sources */,
 				5CC572332088564F00EDF7AB /* NewEntryViewController.swift in Sources */,
 				5CC57218208850E700EDF7AB /* AppDelegate.swift in Sources */,
 			);
