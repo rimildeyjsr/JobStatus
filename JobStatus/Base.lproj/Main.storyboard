@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="jobCell" rowHeight="133" id="2hp-lN-h6p" customClass="MainTableViewCell" customModule="JobStatus" customModuleProvider="target">
@@ -198,25 +198,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-Zj-KBX">
-                                <rect key="frame" x="24" y="607" width="327" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="OqP-fY-ws3" firstAttribute="top" secondItem="FyP-oe-VeQ" secondAttribute="top" constant="20" id="4OG-uJ-Zwz"/>
                             <constraint firstItem="ZZV-oo-QjM" firstAttribute="top" secondItem="OqP-fY-ws3" secondAttribute="bottom" constant="24" id="5Xi-kc-i1k"/>
-                            <constraint firstItem="FyP-oe-VeQ" firstAttribute="trailing" secondItem="Pm7-Zj-KBX" secondAttribute="trailing" constant="24" id="AMC-BR-xn0"/>
                             <constraint firstItem="OqP-fY-ws3" firstAttribute="leading" secondItem="FyP-oe-VeQ" secondAttribute="leading" constant="24" id="AmM-LN-xYo"/>
-                            <constraint firstItem="FyP-oe-VeQ" firstAttribute="bottom" secondItem="Pm7-Zj-KBX" secondAttribute="bottom" constant="24" id="EgY-dC-gFg"/>
                             <constraint firstItem="FyP-oe-VeQ" firstAttribute="trailing" secondItem="ZZV-oo-QjM" secondAttribute="trailing" constant="24" id="Wbu-kJ-MMd"/>
                             <constraint firstItem="ZZV-oo-QjM" firstAttribute="leading" secondItem="FyP-oe-VeQ" secondAttribute="leading" constant="24" id="bOD-7N-TCg"/>
                             <constraint firstItem="FyP-oe-VeQ" firstAttribute="trailing" secondItem="OqP-fY-ws3" secondAttribute="trailing" constant="24" id="igT-M7-OHa"/>
-                            <constraint firstItem="Pm7-Zj-KBX" firstAttribute="leading" secondItem="FyP-oe-VeQ" secondAttribute="leading" constant="24" id="owg-MJ-N58"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FyP-oe-VeQ"/>
                     </view>
@@ -225,6 +215,14 @@
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="companyTextfield" destination="tX5-ta-fDE" id="79w-lF-doJ"/>
+                        <outlet property="positionTextfield" destination="lGe-uM-fFg" id="196-YM-cck"/>
+                        <outlet property="sourceTextfield" destination="pgZ-I2-Kpq" id="gX5-NP-D7I"/>
+                        <outletCollection property="textFields" destination="tX5-ta-fDE" collectionClass="NSMutableArray" id="oCi-XW-DdE"/>
+                        <outletCollection property="textFields" destination="lGe-uM-fFg" collectionClass="NSMutableArray" id="CFP-hj-uB0"/>
+                        <outletCollection property="textFields" destination="pgZ-I2-Kpq" collectionClass="NSMutableArray" id="Q0N-R6-tDL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aK-oT-vUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
